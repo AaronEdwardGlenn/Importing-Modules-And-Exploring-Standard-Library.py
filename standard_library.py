@@ -23,4 +23,4 @@ print(os.getcwd())   # this prints out the current working directory for where t
 
 # we can also create/delete/search files and all of that usign the os module
 
-print(os.__file__)
+print(os.__file__)  # this shows us the filepath of the module we are working with
