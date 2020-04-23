@@ -5,8 +5,8 @@ from my_module import find_index, test
 courses = ['history', 'math', 'science', 'art']
 
 index = find_index(courses, 'math')
-# print(index)
-# print(test)
+print(index)
+print(test)
 
 # we can also import the function from the module as follows and then just use that function rather than having to dot notate. This has been changed above
 
@@ -22,5 +22,3 @@ print(sys.path)
 # change the sys environment to access more locations in windows by going to system properties/ click environment variables and create new environment variable. variable name PYTHON PATH and then the filepath.
 
 # serach Atom pythonpath to find out how to change env in this editor
-
-# The standard library
